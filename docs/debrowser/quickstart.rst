@@ -18,7 +18,7 @@ Once you've made your way to the website, you will be greeted with this tab on t
 	
 To begin the DESeq process, you will need to select your Data file (CSV format) to be analyzed using DESeq.
 
-If you do not have a dataset to use, you can use this `demo set <http://bioinfo.umassmed.edu/content/workshops/material/data.tsv>`
+If you do not have a dataset to use, you can use this `demo set <http://bioinfo.umassmed.edu/content/workshops/material/data.tsv>`_
 
 This selection is under the 'Choose CSV File'.
 
