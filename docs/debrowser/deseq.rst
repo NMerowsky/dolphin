@@ -30,23 +30,21 @@ even further.
 Getting Started
 ===============
 
-In order to conduct differential expression analysis, we first need data to analyze.  In order to call DESeq2, we're going to need gene quantifications and expected counts for those genes.
+In order to conduct differential expression analysis, we first need data to analyze.  In order to call DESeq2, we're going to need
+gene quantifications and expected counts for those genes.
 
 To obtain these quantifications, we typically use `RSEM <http://deweylab.github.io/RSEM/>`_, however there are other ways to obtain this data.
+The TSV file is used to describe the quantification counts. Counts can be recorded as raw counts, RPKM values, or TMM values just as long as
+all of the counts are recorded in the same value type.  Each of the columns in the TSV represent:
 
-The TSV files used to describe the quantification counts are similar to this:
+* *gene*: Gene name
+* *transcript*: Transcript(s) name assoiated with this gene (comma seperated for multiple)
+* *sample names*: The RPKM count for this sample
 
+You can have multiple samples within your TSV file, as long as there is a count that will represent that sample within each row.
+You can view our demo data `here`_ as an example for creating you own dataset.
 
-gene	transcript	exper_rep1	exper_rep2	exper_rep3	control_rep1	control_rep2	control_rep3
-
-DQ714826	uc007tfl.1	0.00	0.00	0.00	0.00	0.00	0.00
-
-DQ551521	uc008bml.1	0.00	0.00	0.00	0.00	0.00	0.00
-
-AK028549	uc011wpi.1	2.00	1.29	0.00	0.00	0.00	1.40
-
-
-Where the gene column represent the gene name, the transcript column represents the transcript(s) name (comma separated for multiple), and the rest of the columns are the counts for your samples.
+.. _here: http://bioinfo.umassmed.edu/content/workshops/material/data.tsv
 
 DESeq2 Workflow
 ===============
