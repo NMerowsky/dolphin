@@ -2,8 +2,10 @@
 Quick Start Guide
 *****************
 
-This guide will walk you through how to starty using dolphin workflows.
+This guide is for Dolphin developers, if you are a user, please see the Dolphin-UI section of this guide
+========================================================================================================
 
+New users can visit http://dolphin.umassmed.edu to get started
 
 General
 ===========
