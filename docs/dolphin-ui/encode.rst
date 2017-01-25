@@ -315,9 +315,6 @@ proper run information, the file selection section will be next.  Here you will 
 be able to be selected.  After file type selection, we then can determine the order and the hierarchy of all the files being submitted as well as any other additional information that may need to
 be provided.  Step run and additional derived from parameters should be supplied by your data wrangler once they have created your analysis pipeline objects within the ENCODE system.
 
-.. image:: dolphin_pics/
-	:align: center
-
 The last table, previous file submissions, simply displays previous submissions from the samples that have been selected.
 
 Once all the appropriate information has been filled out, you're ready to submit to ENCODE.  Press the submit button which you desire on the bottom left of the screen and confirm the submission to
